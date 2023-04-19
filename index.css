@@ -1,0 +1,35 @@
+body{
+    width: 100vh;
+    margin: 0 auto;
+}
+.addCss{
+    padding: 40px 30px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgrey;
+    margin: 30px 0;
+}
+
+#addProduct,#editProduct,#editBtn,#deleteBtn{
+    background-color: forestgreen;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 5px;
+    padding: 5px 10px;
+}
+#tableProduct,th,td{
+    text-align: center;
+    border: 1px solid black;
+}
+th,td{
+    padding: 5px 30px;
+}
+#full{
+    text-align: end;
+    padding-right: 10px;
+    color: red;
+}
+tr:nth-child(even) {background: #cccccc}
+tr:nth-child(odd) {background: #FFF}
